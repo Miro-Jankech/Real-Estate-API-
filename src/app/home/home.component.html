@@ -1,7 +1,8 @@
 <section>
   <form>
-    <input type="text" placeholder="Filter by city" #filter>
-    <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
+    <input type="text" placeholder="Filter by city" #filterInput>
+    <button class="primary" type="button" (click)="filterResults(filterInput.value)">Search</button>
+    <button class="secondary" type="button" (click)="resetResults(filterInput)">Reset</button>
   </form>
 </section>
 
