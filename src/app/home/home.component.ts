@@ -3,7 +3,6 @@ import { Housinglocation } from '../housiglocation';
 import { HttpClient } from '@angular/common/http';
 import { HousingService } from '../housing.service';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
-import { filter } from 'rxjs';
 HousingLocationComponent
 
 @Component({
